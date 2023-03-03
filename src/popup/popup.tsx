@@ -1,12 +1,19 @@
 import React from "react";
-import { Hello } from "./components/Hello/Hello";
+import { MemoryRouter, Routes, Route } from "react-router-dom";
+import { HomeWidget } from "./components/home/home";
+import { LoginWidget } from "./components/login/login";
 import './popup.css'
 
 const Popup = () => {
 
     return (
         <>
-            <Hello name={'test'}/>
+        <MemoryRouter>
+            <Routes>
+                <Route path="/" element={<LoginWidget />} />
+                <Route path="/home" element={<HomeWidget />} />
+            </Routes>
+        </MemoryRouter>
         </>
     )
 };

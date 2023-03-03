@@ -5,6 +5,8 @@ A super simple react based Chrome extension boilerplate.
 ## Stack
 This template supports React, Typescript, Tailwind and Webpack.
 
+It also has Firebase setup along with Chrome Identity and React router. (You have to edit the firebase config and client id in manifest)
+
 It also uses Jest and React testing library for testing the components
 
 The template supports HMR by default!

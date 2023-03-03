@@ -9,8 +9,13 @@
         "default_icon" : "emoji_u1f97a.png"
     },
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "identity"
     ],
+    "oauth2": {
+        "client_id": "your client id",
+        "scopes": ["https://www.googleapis.com/auth/userinfo.email"]
+    },
     "icons": {
         "16" : "emoji_u1f97a.png",
         "48" : "emoji_u1f97a.png",
