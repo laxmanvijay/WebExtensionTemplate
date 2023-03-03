@@ -7,6 +7,8 @@ This template supports React, Typescript, Tailwind and Webpack.
 
 It also has Firebase setup along with Chrome Identity and React router. (You have to edit the firebase config and client id in manifest)
 
+Refer: https://firebaseopensource.com/projects/firebase/quickstart-js/auth/chromextension/readme/
+
 It also uses Jest and React testing library for testing the components
 
 The template supports HMR by default!
